@@ -30,7 +30,7 @@ const App = () => {
         <NavBar title = "IndiaBizTimes" mode={mode} toggleMode={toggleMode}/>
         <LoadingBar heigth='3' color='#f11946' progress={progress} />
         <Routes>
-          <Route path='/IndiaBizTimes-A-News-Application' element={<News setProgress={setProgress} key='general' mode={mode} country='in' category='general'/>}></Route>
+          <Route path='/IndiaBizTimes' element={<News setProgress={setProgress} key='general' mode={mode} country='in' category='general'/>}></Route>
           <Route path='/business' element={<News setProgress={setProgress} key='business' mode={mode} country='in' category='business'/>}></Route>
           <Route path='/entertainment' element={<News setProgress={setProgress} key='entertainment' mode={mode} country='in' category='entertainment'/>}></Route>
           <Route path='/science' element={<News setProgress={setProgress} key='science' mode={mode} country='in' category='science'/>}></Route>
